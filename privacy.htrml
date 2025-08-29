@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Privacy Policy — NMEAStreamer</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body { font-family: system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif; line-height:1.6; margin: 24px; color:#111; }
+    h1,h2 { color:#0b5; }
+    p { margin: 0 0 12px; }
+    ul { margin: 6px 0 12px 20px; }
+    .small { font-size: 0.9rem; color:#444; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p>Last updated: <strong>REPLACE_WITH_EFFECTIVE_DATE</strong></p>
+
+  <h2>Introduction</h2>
+  <p>
+    NMEAStreamer ("the App") is developed and published by <strong>REPLACE_WITH_DEVELOPER_NAME</strong> ("we", "us", "our").
+    This Privacy Policy explains what information the App collects, how it is used, and your choices.
+  </p>
+
+  <h2>Summary</h2>
+  <p>
+    The App reads GPS/NMEA location data from your Android device and can stream those NMEA sentences to a network endpoint (IP and port) that you configure.
+    The App does not send your location anywhere except to the network address you explicitly enter in the app.
+  </p>
+
+  <h2>Data We Collect</h2>
+
+  <h3>Location Data (Precise)</h3>
+  <p>
+    The App uses the device's location capabilities (NMEA messages and/or Android location APIs) to obtain GNSS/GPS information. These NMEA sentences include precise latitude, longitude, satellite information and related metadata.
+    You must explicitly enter a destination IP address and port for streaming; the App only transmits NMEA sentences to that configured endpoint.
+  </p>
+
+  <h3>Device & Diagnostic Data</h3>
+  <p>
+    For troubleshooting and improving the App we may collect or temporarily store non-personal diagnostic information such as:
+  </p>
+  <ul>
+    <li>App logs and crash/error reports (only stored locally on device unless you choose to share them).</li>
+    <li>Device model and Android version (only for optional diagnostics or crash reports).</li>
+  </ul>
+
+  <h3>No Unrequested Personal Data Collection</h3>
+  <p>
+    The App does not collect or transmit user contacts, photos, or other personal files. The App does not collect location or send data to any third-party servers unless you explicitly configure and use the stream destination.
+  </p>
+
+  <h2>How We Use the Data</h2>
+  <ul>
+    <li>To stream GNSS/NMEA sentences from your device to the network endpoint you configure.</li>
+    <li>To provide core functionality — i.e. send live NMEA to your server, and receive device location from GNSS hardware.</li>
+    <li>For diagnostics and troubleshooting (local crash logs). If you opt to share logs with the developer, they may be used to investigate issues.</li>
+  </ul>
+
+  <h2>Sharing & Disclosure</h2>
+  <p>
+    We do not share or sell your location data or logs with third parties. The only recipients of location data are the endpoints (IP and port) that you configure in the App — you are responsible for who controls or accesses that endpoint.
+  </p>
+
+  <h2>Data Retention</h2>
+  <p>
+    The App does not retain streamed location data on our servers (we run no backend by default). Any local logs or cached information remain on your device until you uninstall the App or clear the app data.
+  </p>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>ACCESS_FINE_LOCATION</strong> — required to receive precise GNSS/NMEA data from the device.</li>
+    <li>Network access — the App needs permission to open TCP/UDP connections to stream the NMEA sentences to the IP/port you specify.</li>
+  </ul>
+  <p>
+    If you deny location permission the App will not be able to stream live location data. You can revoke permissions at any time via your device settings.
+  </p>
+
+  <h2>Background Location</h2>
+  <p>
+    The app requests only foreground location by default. If you enable any background streaming features (e.g. the app runs a foreground service while the screen is off), the App will request additional permissions as required by Android and you will be prompted explicitly. If you do not grant background permissions the App will still function while it is in the foreground.
+  </p>
+
+  <h2>Security</h2>
+  <p>
+    We use reasonable technical measures to protect data stored locally by the App. However, no method of transmission over the Internet or electronic storage is 100% secure. You are responsible for the security of the server endpoint you stream to.
+  </p>
+
+  <h2>Your Rights</h2>
+  <p>You may:</p>
+  <ul>
+    <li>Revoke location permissions in device settings (this will stop streaming).</li>
+    <li>Uninstall the App to remove local data (clears cached logs and local storage).</li>
+    <li>Request deletion of any data we may have received from you (contact us using the details below).</li>
+  </ul>
+
+  <h2>Third-Party Services</h2>
+  <p>The App does not use third-party analytics or advertising by default. If third-party services are added in the future, they will be disclosed here and in the Data Safety form in the Play Console.</p>
+
+  <h2>Children</h2>
+  <p>
+    The App is not directed at children under 13. We do not knowingly collect personal data from children.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    If you have questions, or would like to request data deletion, contact:<br>
+    <strong>REPLACE_WITH_DEVELOPER_NAME</strong><br>
+    Email: <a href="mailto:REPLACE_WITH_EMAIL">REPLACE_WITH_EMAIL</a>
+  </p>
+
+  <p class="small">This Privacy Policy may be updated from time to time. The latest version will be posted on this page.</p>
+</body>
+</html>
